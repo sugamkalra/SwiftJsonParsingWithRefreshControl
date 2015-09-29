@@ -15,6 +15,11 @@
 		15FC89F81BB9241E00D79926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FC89F61BB9241E00D79926 /* LaunchScreen.storyboard */; };
 		15FC8A031BB9241E00D79926 /* SwiftyRefreshJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A021BB9241E00D79926 /* SwiftyRefreshJsonTests.swift */; };
 		15FC8A0E1BB9241E00D79926 /* SwiftyRefreshJsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A0D1BB9241E00D79926 /* SwiftyRefreshJsonUITests.swift */; };
+		15FC8A1C1BB924AA00D79926 /* JHProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A1B1BB924AA00D79926 /* JHProgressHUD.swift */; settings = {ASSET_TAGS = (); }; };
+		15FC8A271BB9261600D79926 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A251BB9261600D79926 /* Country+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		15FC8A281BB9261600D79926 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A261BB9261600D79926 /* Country.swift */; settings = {ASSET_TAGS = (); }; };
+		15FC8A2B1BB9263F00D79926 /* CountryListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A291BB9263F00D79926 /* CountryListingVC.swift */; settings = {ASSET_TAGS = (); }; };
+		15FC8A2C1BB9263F00D79926 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A2A1BB9263F00D79926 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		15FC8A091BB9241E00D79926 /* SwiftyRefreshJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRefreshJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC8A0D1BB9241E00D79926 /* SwiftyRefreshJsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRefreshJsonUITests.swift; sourceTree = "<group>"; };
 		15FC8A0F1BB9241E00D79926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FC8A1B1BB924AA00D79926 /* JHProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHProgressHUD.swift; sourceTree = "<group>"; };
+		15FC8A251BB9261600D79926 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		15FC8A261BB9261600D79926 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		15FC8A291BB9263F00D79926 /* CountryListingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListingVC.swift; sourceTree = "<group>"; };
+		15FC8A2A1BB9263F00D79926 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,9 @@
 		15FC89E91BB9241E00D79926 /* SwiftyRefreshJson */ = {
 			isa = PBXGroup;
 			children = (
+				15FC8A291BB9263F00D79926 /* CountryListingVC.swift */,
+				15FC8A2A1BB9263F00D79926 /* DetailViewController.swift */,
+				15FC8A1B1BB924AA00D79926 /* JHProgressHUD.swift */,
 				15FC89EA1BB9241E00D79926 /* AppDelegate.swift */,
 				15FC89EC1BB9241E00D79926 /* ViewController.swift */,
 				15FC89EE1BB9241E00D79926 /* Main.storyboard */,
@@ -106,6 +119,8 @@
 				15FC89F61BB9241E00D79926 /* LaunchScreen.storyboard */,
 				15FC89F91BB9241E00D79926 /* Info.plist */,
 				15FC89F11BB9241E00D79926 /* SwiftyRefreshJson.xcdatamodeld */,
+				15FC8A251BB9261600D79926 /* Country+CoreDataProperties.swift */,
+				15FC8A261BB9261600D79926 /* Country.swift */,
 			);
 			path = SwiftyRefreshJson;
 			sourceTree = "<group>";
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FC8A271BB9261600D79926 /* Country+CoreDataProperties.swift in Sources */,
 				15FC89F31BB9241E00D79926 /* SwiftyRefreshJson.xcdatamodeld in Sources */,
 				15FC89ED1BB9241E00D79926 /* ViewController.swift in Sources */,
+				15FC8A1C1BB924AA00D79926 /* JHProgressHUD.swift in Sources */,
+				15FC8A281BB9261600D79926 /* Country.swift in Sources */,
+				15FC8A2B1BB9263F00D79926 /* CountryListingVC.swift in Sources */,
 				15FC89EB1BB9241E00D79926 /* AppDelegate.swift in Sources */,
+				15FC8A2C1BB9263F00D79926 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +505,7 @@
 				15FC8A141BB9241E00D79926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15FC8A151BB9241E00D79926 /* Build configuration list for PBXNativeTarget "SwiftyRefreshJsonTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +514,7 @@
 				15FC8A171BB9241E00D79926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15FC8A181BB9241E00D79926 /* Build configuration list for PBXNativeTarget "SwiftyRefreshJsonUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +523,7 @@
 				15FC8A1A1BB9241E00D79926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
